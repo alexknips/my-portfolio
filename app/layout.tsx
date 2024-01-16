@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     },
   },
   twitter: {
-    title: "alexknips",
+    title: "AlexanderKnips1",
     card: "summary_large_image",
   },
   icons: {
