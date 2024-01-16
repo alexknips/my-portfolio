@@ -9,11 +9,11 @@ export const metadata: Metadata = {
     default: "alexknips.com",
     template: "%s | alexknips.com",
   },
-  description: "Co-founder of unkey.dev and founder of planetfall.io",
+  description: "Backend software engineer",
   openGraph: {
     title: "alexknips.com",
     description:
-      "Co-founder of unkey.dev and founder of planetfall.io",
+      "Versatile software backend engineer with a passion for building scalable and reliable systems.",
     url: "https://alexknips.com",
     siteName: "alexknips.com",
     images: [
