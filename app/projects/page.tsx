@@ -21,15 +21,15 @@ export default async function ProjectsPage() {
   }, {} as Record<string, number>);
 
   const featured = allProjects.find((project) => project.slug === "nextcvgpt")!;
-  // const top2 = allProjects.find((project) => project.slug === "nextcvgpt")!;
-  // const top3 = allProjects.find((project) => project.slug === "highstorm")!;
+  const top2 = allProjects.find((project) => project.slug === "nextcvgpt")!;
+  const top3 = allProjects.find((project) => project.slug === "nextcvgpt")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
       (project) =>
-        project.slug !== featured.slug // &&
-        // project.slug !== top2.slug &&
-        // project.slug !== top3.slug
+        project.slug !== featured.slug &&
+        project.slug !== top2.slug &&
+        project.slug !== top3.slug
         ,
     )
     .sort(
