@@ -25,7 +25,7 @@ const socials = [
 	},
 	{
 		icon: <FileDown size={20} />,
-		href: "https://drive.google.com/file/d/1bjqtvsl-OJMlZPKiiyvJxekK5HjLRip1/view?usp=sharing",
+		href: "https://drive.google.com/file/d/1P-P2rXXMqbYqC4r2JLz5ujzYVojnpkCQ/view?usp=sharing",
 		label: "CV",
 		handle: "Download CV",
 	},
