@@ -21,8 +21,8 @@ export default async function ProjectsPage() {
   }, {} as Record<string, number>);
 
   const featured = allProjects.find((project) => project.slug === "nextcvgpt")!;
-  const top2 = allProjects.find((project) => project.slug === "nextcvgpt")!;
-  const top3 = allProjects.find((project) => project.slug === "nextcvgpt")!;
+  const top2 = allProjects.find((project) => project.slug === "karius")!;
+  const top3 = allProjects.find((project) => project.slug === "vanapp")!;
   const sorted = allProjects
     .filter((p) => p.published)
     .filter(
@@ -115,7 +115,7 @@ export default async function ProjectsPage() {
                 </Card>
               ))}
           </div>
-          {/* <div className="grid grid-cols-1 gap-4">
+          <div className="grid grid-cols-1 gap-4">
             {sorted
               .filter((_, i) => i % 3 === 1)
               .map((project) => (
@@ -132,7 +132,7 @@ export default async function ProjectsPage() {
                   <Article project={project} views={views[project.slug] ?? 0} />
                 </Card>
               ))}
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
